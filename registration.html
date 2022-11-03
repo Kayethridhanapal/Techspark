@@ -1,0 +1,159 @@
+<html>
+    <head>
+        <meta name="viewport" content="width-device-width,initial scale=1">
+        <title>Registration</title>
+        <style>
+            h3{text-align:centre;padding-top: 5px;font-size: 20px;font-style: italic;font-family: 'Times New Roman', Times, serif;font-weight: 300;}
+            p{text-align: left;padding-left: 15px;font-size: 15px;font-style: italic;font-family: 'Times New Roman', Times, serif;font-weight: 300;}
+        </style>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body style="background-color:cadetblue;font-weight: 600;font-style: normal;">
+        <nav class="navbar navbar-expand-md bg-secondary">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <b>About</b>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="schedule.html">
+                            <b>Schedule</b>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="registration.html">
+                            <b>Registration</b>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">
+                            <b>Contact</b>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h2 style="color:black;text-align: center;font-style: oblique;background-color: #F8E9A1;"><b>TEKSPARK'22 Registration form</b></h2>
+        <form action="#" method="post" class="container-fluid form-inline">
+        
+        <div class="row">
+            <div class="col"><label for="name" class="form-label">Enter Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="enter name" name="name"></div>
+            <div class="col"><label for="rollno" class="form-label">Enter rollno:</label>
+                <input type="text" class="form-control" id="rollno" placeholder="enter rollno" name="rollno"></div>
+        </div>
+        <div class="row">
+            <div class="col"><label for="college" class="form-label">Enter College name:</label>
+                <input type="text" class="form-control" id="college" placeholder="your college name" name="college">
+                </div>
+            <div class="col"><label for="mobnumber" class="form-label">Enter Mobile Number:</label>
+                <input type="text" class="form-control" id="mobnum" placeholder="enter mobnum" name="mobnum"></div>
+
+        </div>
+        <div class="row">
+            <div class="col">Select program
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="program" id="program1" value="B.E">
+                    <label class="form-check-label" for="program1">B.E</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="program" id="program2" value="B.TECH">
+                    <label class="form-check-label" for="program2">B.TECH</label>
+                </div>
+        
+        </div>
+        <div class="col">Select department
+            <label for="dept" class="form-select">department </label>
+        <select class="form-select" id="dept" name="dept">
+        <option value="IT">IT</option>
+        <option value="ECE">ECE</option>
+        <option value="EEE">EEE</option>
+        <option value="MECH">MECH</option>
+        <option value="CIVIL">CIVIL</option>
+        <option value="FOOD TECH">FOOD TECH</option>
+        <option value="CSE">CSE</option>
+        </select>
+        </div>
+        
+        <div class="row">
+            <div class="col">Select year
+                <label for="year" class="form-select">year </label>
+            <select class="form-select" id="year" name="year">
+            <option value="I">I</option>
+            <option value="II">II</option>
+            <option value="III">III</option>
+            <option value="IV">IV</option>
+            </select>
+            </div>
+            <div class="col">select section
+                <label for="section" class="form-select">section </label>
+            <select class="form-select" id="section" name="section">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+            </select>
+            </div>
+    
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col"><b>Technical events</b>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="check1" name="option1" value="PRADARSHIAN" >
+            <label class="form-check-label">PRADARSHIAN</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="check1" name="option1" value="IDEAPEDIA" >
+            <label class="form-check-label">IDEAPEDIA</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="check1" name="option1" value="CIRCUIT MONSTER" >
+            <label class="form-check-label">CIRCUIT MONSTER</label>
+          </div></div>
+          <div class="col"><b>Non-Technical events</b>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="check1" name="option1" value="Treasure hunt" >
+                <label class="form-check-label">Treasure hunt</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="check1" name="option1" value="Channel surfing" >
+                <label class="form-check-label">Channel surfing</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="check1" name="option1" value="Vivid portraits" >
+                <label class="form-check-label">Vivid portraits</label>
+              </div>
+              </div>
+            <div class="col"><b>Workshops</b>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="check1" name="option1" value="IOT" >
+                    <label class="form-check-label">IOT</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="check1" name="option1" value="GIT" >
+                    <label class="form-check-label">GIT</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="check1" name="option1" value="AUGMENTED REALITY" >
+                    <label class="form-check-label">AUGMENTED REALITY</label>
+                  </div></div>
+    </div>
+    <div class="row">
+        <div class="col">
+        <label for="Queries" class="form-label"><b>For further Queries:</b></label>
+        <input type="text" class="form-control" id="Queries" placeholder="queries if any" name="Queries"><br>
+         </div>
+        <div class="col"><label for="email" class="form-label"><b>Enter email:</b></label>
+            <input type="email" class="form-control" id="email" placeholder="enter email" name="email"></div>
+
+    </div>
+
+        
+        <button type="submit" class="btn btn-success ">Submit</button>
+        </form>
+    </body>   
+</html>
